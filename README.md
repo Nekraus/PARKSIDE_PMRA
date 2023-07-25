@@ -1,2 +1,4 @@
 # PARKSIDE_PMRA
-Reverse engennering PARKSIDE 20V PMRA 20-Li
+The reverse engineering electronic schematic of the mower robot PMRA 20-Li A1
+
+Work in Progress
