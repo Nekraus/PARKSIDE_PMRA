@@ -336,6 +336,14 @@
     [
       "8f2bab61-d01d-427f-9eab-8e37d8f69227",
       "Power_Management"
+    ],
+    [
+      "3781f904-ad5d-4556-95d7-56a61e8f160b",
+      "Charger"
+    ],
+    [
+      "ae4a35fa-7e4b-4182-8478-3d989711b3c1",
+      "display"
     ]
   ],
   "text_variables": {}
