@@ -383,9 +383,14 @@
     (uuid 5907d0dc-3ee0-4ae2-a63d-bc4c9644b3fe)
   )
   (text "current = PC2*3.3/4095 / 20 / 0.025 (found in soft)"
-    (at 151.13 76.2 0)
+    (at 151.13 96.52 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 5a64a8c5-4146-4853-9419-c7a3826cf034)
+  )
+  (text "current = PC2*3.3/4095 / 5 / 0.025 (found in soft)"
+    (at 157.48 54.61 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 6260a9d9-7d33-4ef5-824c-f9a6959f851a)
   )
   (text "Discharge_Current" (at 172.72 62.23 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))

@@ -953,14 +953,14 @@
     )
   )
 
-  (sheet (at 71.12 135.89) (size 29.21 22.86) (fields_autoplaced)
+  (sheet (at 153.67 123.19) (size 29.21 22.86) (fields_autoplaced)
     (stroke (width 0.1524) (type solid) (color 0 0 0 0))
     (fill (color 0 0 0 0.0000))
     (uuid 963aece7-0a83-44d7-8a61-91c63a3a953e)
-    (property "Sheet name" "GDF303" (id 0) (at 71.12 135.1784 0)
+    (property "Sheet name" "GDF303" (id 0) (at 153.67 122.4784 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheet file" "GDF303.kicad_sch" (id 1) (at 71.12 159.3346 0)
+    (property "Sheet file" "GDF303.kicad_sch" (id 1) (at 153.67 146.6346 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
   )
@@ -1140,6 +1140,9 @@
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
     (path "/847adbff-afbd-4674-85be-06aa9dbd836d/e8b39c16-7c82-46df-8881-c0004b1ac734"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/ae4a35fa-7e4b-4182-8478-3d989711b3c1/f4a3c59f-8d7f-4a53-bc39-84a90fdb89e2"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
     (path "/8f2bab61-d01d-427f-9eab-8e37d8f69227/fd64c383-6b67-4028-8275-046123cb450d"
