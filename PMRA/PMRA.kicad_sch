@@ -855,6 +855,22 @@
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid df64c8e5-7898-4bb8-aa8e-ff5b0c4dd6f8)
     )
+    (pin "Charger_connected" output (at 264.16 86.36 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid f12b6875-71a9-49ae-9340-a25f02a8bacc)
+    )
+  )
+
+  (sheet (at 19.05 95.25) (size 125.73 52.07) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 3ebd821f-8574-4f31-bdf0-1e5ac84dae35)
+    (property "Sheet name" "Motor Drivers" (id 0) (at 19.05 94.5384 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "Motor_Drivers.kicad_sch" (id 1) (at 19.05 147.9046 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
   )
 
   (sheet (at 176.53 33.02) (size 31.75 12.7) (fields_autoplaced)
@@ -1013,6 +1029,7 @@
     (path "/8f2bab61-d01d-427f-9eab-8e37d8f69227" (page "5"))
     (path "/3781f904-ad5d-4556-95d7-56a61e8f160b" (page "6"))
     (path "/ae4a35fa-7e4b-4182-8478-3d989711b3c1" (page "7"))
+    (path "/3ebd821f-8574-4f31-bdf0-1e5ac84dae35" (page "8"))
   )
 
   (symbol_instances
@@ -1088,6 +1105,9 @@
     (path "/8f2bab61-d01d-427f-9eab-8e37d8f69227/7c37d89b-6f02-4957-83fe-de9c499be4d0"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
+    (path "/3ebd821f-8574-4f31-bdf0-1e5ac84dae35/84f0f8fe-1f58-4c14-b609-5f09b9bd23b9"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
     (path "/847adbff-afbd-4674-85be-06aa9dbd836d/8ae7feaf-5e04-441b-9a89-c3790caa3ff1"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
@@ -1140,6 +1160,9 @@
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
     (path "/847adbff-afbd-4674-85be-06aa9dbd836d/e8b39c16-7c82-46df-8881-c0004b1ac734"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/3ebd821f-8574-4f31-bdf0-1e5ac84dae35/f4a39b5e-5a02-4900-b3b5-8d5b16daa18b"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
     (path "/ae4a35fa-7e4b-4182-8478-3d989711b3c1/f4a3c59f-8d7f-4a53-bc39-84a90fdb89e2"
@@ -1583,6 +1606,9 @@
     (path "/847adbff-afbd-4674-85be-06aa9dbd836d/f1086e6f-0b88-4945-b5a5-2c358da94e95"
       (reference "R?") (unit 1) (value "1k") (footprint "")
     )
+    (path "/3ebd821f-8574-4f31-bdf0-1e5ac84dae35/8e606dd1-9245-4bfe-8147-c7fa800e158c"
+      (reference "TH?") (unit 1) (value "Thermistor_NTC") (footprint "")
+    )
     (path "/637a2fe8-8c6f-4726-b21a-b9ba71a7a04b"
       (reference "TVS1") (unit 1) (value "D_TVS") (footprint "")
     )
@@ -1601,8 +1627,20 @@
     (path "/ae4a35fa-7e4b-4182-8478-3d989711b3c1/0e77ab7f-e77c-40ae-9fb6-2e67b1b64825"
       (reference "U?") (unit 1) (value "LCD-016N002L") (footprint "Display:LCD-016N002L")
     )
+    (path "/3ebd821f-8574-4f31-bdf0-1e5ac84dae35/14d9ec68-6f56-4179-9e93-7deb95a20407"
+      (reference "U?") (unit 1) (value "STM32F030K6Tx") (footprint "Package_QFP:LQFP-32_7x7mm_P0.8mm")
+    )
     (path "/dd700048-bd7c-4480-acf7-1a61a472ed87/17c6a957-a786-4ef2-b451-edde08e644b7"
       (reference "U?") (unit 1) (value "LM358") (footprint "")
+    )
+    (path "/3ebd821f-8574-4f31-bdf0-1e5ac84dae35/3265035c-e3e5-4f2b-8a46-3c28c64344df"
+      (reference "U?") (unit 1) (value "CD4052B") (footprint "")
+    )
+    (path "/3ebd821f-8574-4f31-bdf0-1e5ac84dae35/88b4c308-870c-4bb9-8f78-ee4c73e203c9"
+      (reference "U?") (unit 1) (value "STM32F030K6Tx") (footprint "Package_QFP:LQFP-32_7x7mm_P0.8mm")
+    )
+    (path "/3ebd821f-8574-4f31-bdf0-1e5ac84dae35/8c8ef94e-a0f1-4e33-af58-7e6bf3ef4ab2"
+      (reference "U?") (unit 1) (value "STM32F030K6Tx") (footprint "Package_QFP:LQFP-32_7x7mm_P0.8mm")
     )
     (path "/963aece7-0a83-44d7-8a61-91c63a3a953e/abe5df83-96bb-4152-88ff-38d1e850ce93"
       (reference "U?") (unit 1) (value "STM32F303ZETx") (footprint "Package_QFP:LQFP-144_20x20mm_P0.5mm")
