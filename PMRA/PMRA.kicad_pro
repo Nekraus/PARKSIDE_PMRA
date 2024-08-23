@@ -322,10 +322,6 @@
       ""
     ],
     [
-      "963aece7-0a83-44d7-8a61-91c63a3a953e",
-      "GDF303"
-    ],
-    [
       "847adbff-afbd-4674-85be-06aa9dbd836d",
       "Battery_Coms"
     ],
@@ -348,6 +344,10 @@
     [
       "3ebd821f-8574-4f31-bdf0-1e5ac84dae35",
       "Motor Drivers"
+    ],
+    [
+      "b118b38f-10b8-41bf-9bcd-729b7d7e9f53",
+      "ampli"
     ]
   ],
   "text_variables": {}
